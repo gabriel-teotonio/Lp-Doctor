@@ -1,34 +1,23 @@
 import * as C from '../Services-section/style'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome' 
+import { TopicItem } from '../TopicItem'
+import { Data } from '../../data/topics'
 
-export const ServiceTopic = ({icon}) => {
+export const ServiceTopic = ({icon, data, dataHeader}) => {
 return (
         <C.Topic>
-                    <C.TopicHeader>
-                        <FontAwesomeIcon icon={icon} />
-                        <h3>Consultas</h3>
-                        <p>Atendemos diariamente nas seguintes áreas da urologia:</p>
-                    </C.TopicHeader>
-                    <C.TopicItens>
-                        <C.TopicItem>
-                            <h5>Urologia Geral</h5>
-                            <p>Infecções urinárias , DST´s , avaliações da próstata e saúde masculina de rotina , 
-                            doenças benignas e malignas dos rins , ureteres , bexiga , próstata , uretra , pênis e bolsa escrota
-                            </p>
-                        </C.TopicItem>
-                        <C.TopicItem>
-                            <h5>Urologia Geral</h5>
-                            <p>Infecções urinárias , DST´s , avaliações da próstata e saúde masculina de rotina , 
-                            doenças benignas e malignas dos rins , ureteres , bexiga , próstata , uretra , pênis e bolsa escrota
-                            </p>
-                        </C.TopicItem>
-                        <C.TopicItem>
-                            <h5>Urologia Geral</h5>
-                            <p>Infecções urinárias , DST´s , avaliações da próstata e saúde masculina de rotina , 
-                            doenças benignas e malignas dos rins , ureteres , bexiga , próstata , uretra , pênis e bolsa escrota
-                            </p>
-                        </C.TopicItem>
-                    </C.TopicItens>
-                </C.Topic>
+            <C.TopicHeader>
+                <FontAwesomeIcon icon={icon} />
+                <h3>{dataHeader.title}</h3>
+                <p>{dataHeader.description}</p>
+            </C.TopicHeader>
+            <C.TopicItens>
+                {
+                    data.map((item, index) => (
+                        <TopicItem key={index} item={item}/>
+                    ))
+                }
+            </C.TopicItens>
+        </C.Topic>
     )
 }

@@ -9,7 +9,7 @@ export const Container = styled.main`
     justify-content: space-between;
     align-items: center;
     margin-top: 2rem;
-    padding: 0 4rem;    
+    padding: 0 4rem;
 `
 
 export const EmphasesTitle = styled.span`

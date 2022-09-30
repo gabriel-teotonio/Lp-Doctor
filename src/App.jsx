@@ -17,14 +17,13 @@ function App() {
   }
 
   return (
-    <div>
       <ThemeProvider theme={theme}>
       <Header />
       <Main />
       <Services />
+
       <GlobalStyle />
       </ThemeProvider>
-    </div>
   )
 }
 

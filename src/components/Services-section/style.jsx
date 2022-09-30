@@ -28,6 +28,7 @@ export const TopicHeader = styled.header`
     text-align: center;
     border-bottom: #6e6e6e 2px solid;
     padding: 4px 2px;
+    min-height: 250px;
     svg{
         font-size: 6rem;
         color: ${primaryColor};
