@@ -3,13 +3,13 @@ import {faFileWaveform} from '@fortawesome/free-solid-svg-icons'
 import {faStethoscope} from '@fortawesome/free-solid-svg-icons'
 import {faPersonDotsFromLine} from '@fortawesome/free-solid-svg-icons'
 import { ServiceTopic } from '../ServiceTopic'
-import { Data } from '../../data/topics'
+import { Data } from '../../data/datas'
 
 
 export const Services = () => {
     return (
         <C.Container>
-            <C.TitleServices>Serviços</C.TitleServices>
+            <C.TitleSection>Serviços</C.TitleSection>
             <C.ServicesMain>
                 <ServiceTopic 
                 icon={faFileWaveform}

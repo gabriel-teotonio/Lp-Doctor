@@ -30,6 +30,9 @@ export const Container = styled.header`
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* position: fixed;
+    top: 0;
+    width: 100%; */
 `
 export const LogoName = styled.h4`
     position: relative;
@@ -74,4 +77,5 @@ export const BtnPrimary = styled.a`
     background-color: ${props => RESOLVE_STYLE[props.type]};
     color: white;
     padding: .8rem;
+    text-align: center;
 `

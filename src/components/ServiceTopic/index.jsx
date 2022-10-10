@@ -1,7 +1,7 @@
 import * as C from '../Services-section/style'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome' 
 import { TopicItem } from '../TopicItem'
-import { Data } from '../../data/topics'
+import { Data } from '../../data/datas'
 
 export const ServiceTopic = ({icon, data, dataHeader}) => {
 return (

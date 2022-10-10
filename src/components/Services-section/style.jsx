@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { primaryColor } from "../Main/style";
+import { primaryColor, secundaryColor } from "../Main/style";
 
 
 
@@ -8,10 +8,10 @@ export const Container = styled.section`
     height: auto;
     padding: 2rem 0;
 `
-export const TitleServices = styled.h2`
+export const TitleSection = styled.h2`
     text-align: center;
     font-size: 3rem;
-    color: #858585;
+    color: ${secundaryColor};
 `
 
 export const ServicesMain = styled.article`

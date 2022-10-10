@@ -70,3 +70,23 @@ export const Data = {
         },
     ]
 }
+
+
+
+export const ClientsData = [
+    {
+        img:'https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHBlcnNvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60',
+        nameTitle:'Jean peterson',
+        comment:'"ótimo trabalho, fui muito bem atendido!"'
+    },
+    {
+        img:'https://images.unsplash.com/photo-1566492031773-4f4e44671857?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODZ8fHBlcnNvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60',
+        nameTitle:'Jean peterson',
+        comment:'"Me senti muito seguro ao realizar o tratamento com o doutor, ótimo profissional!"'
+    },
+    {
+        img:'https://images.unsplash.com/photo-1545167622-3a6ac756afa4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTE5fHxwZXJzb258ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60',
+        nameTitle:'Jean peterson',
+        comment:'"Recomendo muito! resolveu meu problema"'
+    },
+]
